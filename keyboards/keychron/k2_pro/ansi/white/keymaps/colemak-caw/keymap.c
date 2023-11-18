@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_TAB,   KC_Q,     KC_W,     KC_F,     KC_P,     KC_B,     KC_LBRC,  KC_J,     KC_L,     KC_U,     KC_Y,       KC_SCLN,  KC_QUOT,  KC_BSLS,            KC_PGDN,
      KC_BSPC,  KC_A,     KC_R,     KC_S,     KC_T,     KC_G,     KC_RBRC,  KC_M,     KC_N,     KC_E,     KC_I,       KC_O,               KC_ENT,             KC_HOME,
      KC_LSFT,            KC_X,     KC_C,     KC_D,     KC_V,     KC_Z,     KC_SLSH,  KC_K,     KC_H,     KC_COMM,    KC_DOT,             KC_RSFT,  KC_UP,    KC_END,
-     KC_LCTL,  KC_LGUI,  KC_LALT,                                KC_SPC,                                 MO(WIN_FN), KC_RALT,  KC_RCTL,  KC_LEFT,  KC_DOWN,  KC_RGHT),
+     KC_LCTL,  KC_LALT,  KC_LGUI,                                KC_SPC,                                 MO(WIN_FN), KC_RALT,  KC_RCTL,  KC_LEFT,  KC_DOWN,  KC_RGHT),
 
 [WIN_FN] = LAYOUT_ansi_84(
      _______,  KC_BRID,  KC_BRIU,  KC_SLEP,  KC_FILE,  BL_DOWN,  BL_UP,    KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,    KC_VOLD,  KC_VOLU,  NK_TOGG,  BAT_LVL,  BL_TOGG,
